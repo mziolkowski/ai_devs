@@ -1,0 +1,25 @@
+{
+  "name": "ai_devs_2",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "start": "bun src/utils/utils.ts",
+    "helloapi": "bun src/exercises/helloapi.ts",
+    "moderation": "bun src/exercises/moderate.ts",
+    "blogger": "bun src/exercises/blogger.ts",
+    "liar": "bun src/exercises/liar.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/openai": "0.0.22",
+    "dotenv": "^16.4.5",
+    "axios": "^1.6.8",
+    "langchain": "^0.0.174",
+    "openai": "^4.29.2"
+  }
+}
