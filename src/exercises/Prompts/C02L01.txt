@@ -1,0 +1,2 @@
+1. -> return only fruit format ["word","word1"] ASC
+2. -> Zwróć 0 dla błędu. Dla fib(0)=0, fib(1)=1. Przyjmuj tylko liczby. Przy dużych liczbach > 10 zatrzymaj program przed 2 sekundą.
