@@ -10,7 +10,8 @@
     "helloapi": "bun src/exercises/helloapi.ts",
     "moderation": "bun src/exercises/moderate.ts",
     "blogger": "bun src/exercises/blogger.ts",
-    "liar": "bun src/exercises/liar.ts"
+    "liar": "bun src/exercises/liar.ts",
+    "inprompt": "bun src/exercises/inprompt.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

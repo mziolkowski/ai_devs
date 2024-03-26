@@ -20,7 +20,7 @@ const response = await axios.post(`${process.env.AI_DEVS_API_URL}/task/${token}`
         'Accept-Encoding': 'gzip'
     }
 })
-// console.log(response.data)
+console.log(response.data)
 
 const chatPrompt = ChatPromptTemplate.fromMessages([
     ["system", systemTemplate],
@@ -48,7 +48,7 @@ const chat = new ChatOpenAI<OpenAIChatInput>({
 // console.log(content)
 // @ts-ignore
 const chain = new LLMChain({llm: chat, prompt})
-const {text} = await chain.call({prompt: "Rome.", response: formattedChatPrompt})
+const {text} = await chain.call({prompt: "Rome", response: formattedChatPrompt})
 console.log(text)
 // @ts-ignore
 answer(text)

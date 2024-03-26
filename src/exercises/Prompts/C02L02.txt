@@ -1,0 +1,7 @@
+2. Wyciągnij tylko <p> (są ich w tekscie 3). Kod przekonwertuj do Markdown zachowujac styl.
+
+To znaczy jeśli tekst jest pogrubiony <b> to ma taki zostać.
+
+Jeśli jest link <a href> to ma zostać linkiem.
+
+Na wyjściu mają zostać zwrócone tylko 3 paragrafy tekstu bez żadnego kodu.
