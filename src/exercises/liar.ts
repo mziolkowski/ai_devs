@@ -41,14 +41,8 @@ const chat = new ChatOpenAI<OpenAIChatInput>({
 });
 
 // @ts-ignore
-// const { content } = await chat.invoke([
-//     new SystemMessage(systemTemplate),
-//     new HumanMessage(question),
-// ]);
-// console.log(content)
-// @ts-ignore
 const chain = new LLMChain({llm: chat, prompt})
 const {text} = await chain.call({prompt: "Rome", response: formattedChatPrompt})
 console.log(text)
-// @ts-ignore
+
 answer(text)

@@ -1,7 +1,5 @@
 import {answer, getTask} from "../utils/utils.ts";
-import {ChatOpenAI, OpenAIEmbeddings} from "@langchain/openai";
-import {ChatPromptTemplate} from "langchain/prompts";
-import {HumanMessage, SystemMessage} from "langchain/schema";
+import {OpenAIEmbeddings} from "@langchain/openai";
 
 
 const task = await getTask("embedding");

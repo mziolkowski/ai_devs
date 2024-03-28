@@ -12,7 +12,8 @@
     "blogger": "bun src/exercises/blogger.ts",
     "liar": "bun src/exercises/liar.ts",
     "inprompt": "bun src/exercises/inprompt.ts",
-    "embedding": "bun src/exercises/embedding.ts"
+    "embedding": "bun src/exercises/embedding.ts",
+    "whisper": "bun src/exercises/whisper.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
