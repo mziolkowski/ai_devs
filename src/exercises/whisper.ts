@@ -22,5 +22,3 @@ const loader = new OpenAIWhisperAudio("mateusz.mp3", {clientOptions: {apiKey: pr
 const doc = await loader.load()
 
 answer(doc[0].pageContent)
-
-

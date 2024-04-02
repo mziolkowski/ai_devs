@@ -1,0 +1,6 @@
+Your task is to format a message into HTML code.
+The user tags are located between the !slowo! characters.
+The description of the user functions is located between the same !word!
+
+IMPORTANT:
+Return only the paragraph code fragment, not the whole document. 

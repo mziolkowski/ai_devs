@@ -13,15 +13,19 @@
     "liar": "bun src/exercises/liar.ts",
     "inprompt": "bun src/exercises/inprompt.ts",
     "embedding": "bun src/exercises/embedding.ts",
-    "whisper": "bun src/exercises/whisper.ts"
+    "whisper": "bun src/exercises/whisper.ts",
+    "functions": "bun src/exercises/functions.ts",
+    "rodo": "bun src/exercises/rodo.ts",
+    "scraper": "bun src/exercises/scraper.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@langchain/openai": "0.0.22",
-    "dotenv": "^16.4.5",
     "axios": "^1.6.8",
+    "brotli": "^1.3.3",
+    "dotenv": "^16.4.5",
     "langchain": "^0.0.174",
     "openai": "^4.29.2"
   }
