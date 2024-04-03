@@ -16,7 +16,8 @@
     "whisper": "bun src/exercises/whisper.ts",
     "functions": "bun src/exercises/functions.ts",
     "rodo": "bun src/exercises/rodo.ts",
-    "scraper": "bun src/exercises/scraper.ts"
+    "scraper": "bun src/exercises/scraper.ts",
+    "whoami": "bun src/exercises/whoami.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
