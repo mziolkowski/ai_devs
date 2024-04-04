@@ -17,17 +17,20 @@
     "functions": "bun src/exercises/functions.ts",
     "rodo": "bun src/exercises/rodo.ts",
     "scraper": "bun src/exercises/scraper.ts",
-    "whoami": "bun src/exercises/whoami.ts"
+    "whoami": "bun src/exercises/whoami.ts",
+    "search": "bun src/exercises/search.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@langchain/openai": "0.0.22",
+    "@qdrant/js-client-rest": "^1.5.0",
     "axios": "^1.6.8",
     "brotli": "^1.3.3",
     "dotenv": "^16.4.5",
     "langchain": "^0.0.174",
-    "openai": "^4.29.2"
+    "openai": "^4.29.2",
+    "qdrant": "^1.3.1"
   }
 }
