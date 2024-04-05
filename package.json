@@ -18,7 +18,8 @@
     "rodo": "bun src/exercises/rodo.ts",
     "scraper": "bun src/exercises/scraper.ts",
     "whoami": "bun src/exercises/whoami.ts",
-    "search": "bun src/exercises/search.ts"
+    "search": "bun src/exercises/search.ts",
+    "people": "bun src/exercises/people.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
