@@ -1,0 +1,2 @@
+Wypisz 9 ciał niebieskich w kolejności licząc od gwiazdy. Nazwy powinny być nie wielką literą.
+Zwróć je jako prostą tablicę ["element1","element2",...].
