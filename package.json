@@ -21,7 +21,8 @@
     "search": "bun src/exercises/search.ts",
     "people": "bun src/exercises/people.ts",
     "knowledge": "bun src/exercises/knowledge.ts",
-    "tools": "bun src/exercises/tools.ts"
+    "tools": "bun src/exercises/tools.ts",
+    "gnome": "bun src/exercises/gnome.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
