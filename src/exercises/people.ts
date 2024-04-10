@@ -57,7 +57,7 @@ const prevChatPrompt = ChatPromptTemplate.fromMessages([
 ]);
 
 // @ts-ignore
-const prevFormattedChatPrompt = await prevChatPrompt.formatMessages({question});
+const prevFormattedChatPrompt = await prevChatPrompt.formatMessages({});
 // @ts-ignore
 const formattedQuestion = await model.invoke(prevFormattedChatPrompt);
 // console.log(formattedQuestion.content);

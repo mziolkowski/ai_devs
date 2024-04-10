@@ -19,7 +19,9 @@
     "scraper": "bun src/exercises/scraper.ts",
     "whoami": "bun src/exercises/whoami.ts",
     "search": "bun src/exercises/search.ts",
-    "people": "bun src/exercises/people.ts"
+    "people": "bun src/exercises/people.ts",
+    "knowledge": "bun src/exercises/knowledge.ts",
+    "tools": "bun src/exercises/tools.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
