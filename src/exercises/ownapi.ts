@@ -3,7 +3,7 @@ import express from "express";
 import OpenAI from "openai";
 
 const app = express();
-const port = 6060;
+const port = 8080;
 const openai = new OpenAI({apiKey: process.env.OPENAI_API_KEY});
 
 app.use(express.json());
