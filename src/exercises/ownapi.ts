@@ -10,7 +10,7 @@ app.use(express.json());
 
 // @ts-ignore
 app.get("/api/", (req, res) => {
-    res.send("Hello World!");
+    res.send("Hello Mikr.us!");
 });
 
 // @ts-ignore
@@ -23,7 +23,7 @@ app.post("/api/", async (req, res) => {
     ];
 
     const response = await openai.chat.completions.create({
-        model: "gpt-4",
+        model: "gpt-3.5",
         messages: messages,
     });
 
@@ -35,12 +35,12 @@ app.post("/api/", async (req, res) => {
 async function main() {
     const data = await getTask("ownapi");
 
-    console.log("starting server");
-    app.listen(port, () => {
-        console.log(`Listening on port ${port}...`);
-    });
+    // console.log("starting server");
+    // app.listen(port, () => {
+    //     console.log(`Listening on port ${port}...`);
+    // });
 
-    // await answer("https://mzownapi.bieda.it/api/");
+    await answer("https://mzownapi.bieda.it/api/");
 
 }
 
