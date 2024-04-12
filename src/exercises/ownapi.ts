@@ -4,7 +4,7 @@ import OpenAI from "openai";
 
 const app = express();
 const port = 6060;
-const openai = new OpenAI();
+const openai = new OpenAI({apiKey: process.env.OPENAI_API_KEY});
 
 app.use(express.json());
 
@@ -24,7 +24,7 @@ app.post("/", async (req, res) => {
 
     const response = await openai.chat.completions.create({
         model: "gpt-3.5-turbo",
-        messages: messages
+        messages: messages,
     });
 
     console.log("Responding with: ", response.choices[0].message.content);
