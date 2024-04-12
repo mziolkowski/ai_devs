@@ -9,12 +9,12 @@ const openai = new OpenAI({apiKey: process.env.OPENAI_API_KEY});
 app.use(express.json());
 
 // @ts-ignore
-app.get("/", (req, res) => {
+app.get("/api/", (req, res) => {
     res.send("Hello World!");
 });
 
 // @ts-ignore
-app.post("/", async (req, res) => {
+app.post("/api/", async (req, res) => {
     console.log("question: ", req.body.question);
 
     const messages = [
@@ -40,7 +40,7 @@ async function main() {
         console.log(`Listening on port ${port}...`);
     });
 
-    await answer("https://mzownapi.bieda.it:8080");
+    // await answer("https://mzownapi.bieda.it/api/");
 
 }
 
