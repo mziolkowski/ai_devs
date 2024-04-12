@@ -3,7 +3,7 @@ import express from "express";
 import OpenAI from "openai";
 
 const app = express();
-const port = 8080;
+const port = 3034;
 const openai = new OpenAI({apiKey: process.env.OPENAI_API_KEY});
 
 app.use(express.json());
@@ -23,7 +23,7 @@ app.post("/", async (req, res) => {
     ];
 
     const response = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
+        model: "gpt-4",
         messages: messages,
     });
 
@@ -40,7 +40,7 @@ async function main() {
         console.log(`Listening on port ${port}...`);
     });
 
-    // await answer("https://mzownapi.bieda.it:8080/");
+    await answer("https://mzownapi.bieda.it:8080");
 
 }
 
