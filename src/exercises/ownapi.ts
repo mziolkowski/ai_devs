@@ -40,7 +40,7 @@ async function main() {
         console.log(`Listening on port ${port}...`);
     });
 
-    await answer("https://mzownapi.bieda.it/");
+    await answer("https://mzownapi.bieda.it/api/");
 
 }
 
