@@ -25,7 +25,8 @@
     "gnome": "bun src/exercises/gnome.ts",
     "ownapi": "bun src/exercises/ownapi.ts",
     "ownapipro": "bun src/exercises/ownapipro.ts",
-    "meme": "bun src/exercises/meme.ts"
+    "meme": "bun src/exercises/meme.ts",
+    "optimaldb": "bun src/exercises/optimaldb.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
