@@ -26,7 +26,8 @@
     "ownapi": "bun src/exercises/ownapi.ts",
     "ownapipro": "bun src/exercises/ownapipro.ts",
     "meme": "bun src/exercises/meme.ts",
-    "optimaldb": "bun src/exercises/optimaldb.ts"
+    "optimaldb": "bun src/exercises/optimaldb.ts",
+    "google": "bun src/exercises/google.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -40,6 +41,7 @@
     "langchain": "^0.0.174",
     "openai": "^4.29.2",
     "qdrant": "^1.3.1",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "serpapi": "^2.0.0"
   }
 }
