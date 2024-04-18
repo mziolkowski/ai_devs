@@ -27,7 +27,8 @@
     "ownapipro": "bun src/exercises/ownapipro.ts",
     "meme": "bun src/exercises/meme.ts",
     "optimaldb": "bun src/exercises/optimaldb.ts",
-    "google": "bun src/exercises/google.ts"
+    "google": "bun src/exercises/google.ts",
+    "md2html": "bun src/exercises/md2html.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
